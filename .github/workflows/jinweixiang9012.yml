@@ -1,9 +1,9 @@
 name: jinweixiang9012
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '41 5/6 * * *'
+    - cron: '7 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,15 +11,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: jinweixiang9012
         env:
-          wi9: ${{ secrets.wi9 }}
+          sa078: ${{ secrets.sa078 }}
         run: |
-          echo $wi9 | jq -r .lwfsm8 | /bin/bash
-          echo $tvwwd73 | jq -r .bzzek86051 | /bin/bash
-          echo $bjf6268 | jq -r .sm042 | /bin/bash
-          echo $rskw198 | jq -r .btutg107 | /bin/bash
-          echo $v25148 | jq -r .uy4374 | /bin/bash
-          echo $azeve88 | jq -r .jnysb648 | /bin/bash
-          echo $qul85267 | jq -r .oazqu8 | /bin/bash
-          echo $ixcu6386 | jq -r .zmd86594 | /bin/bash
-          echo $mk160 | jq -r .hv9511 | /bin/bash
+          echo $sa078 | jq -r .bi4 | /bin/bash
+          echo $lwmgd89796 | jq -r .h6 | /bin/bash
+          echo $oq78 | jq -r .qlj450 | /bin/bash
+          echo $t8 | jq -r .tmwd29653 | /bin/bash
+          echo $ujldc37244 | jq -r .fbhgk8 | /bin/bash
+          echo $ri272 | jq -r .aahds702 | /bin/bash
+          echo $bjuz52 | jq -r .jomb49341 | /bin/bash
+          echo $qaj587 | jq -r .dvopb16 | /bin/bash
+          echo $gaae19418 | jq -r .jybxb3 | /bin/bash
+          echo $q14 | jq -r .gdx67 | /bin/bash
+          echo $t7 | jq -r .rfane21646 | /bin/bash
 

